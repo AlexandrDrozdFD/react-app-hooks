@@ -12,7 +12,7 @@ export default function Alert() {
 
   return (
     <div className={'alert alert-danger'} onClick={alert.hide}>
-      Очень важное сообщение
+      {alert.text}
     </div>
   );
 }
